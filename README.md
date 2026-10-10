@@ -40,11 +40,14 @@ Model performance is evaluated against two primary operational scenarios:
 * DS2 (Prioritization): A classification task distinguishing between serious architectural flaws (Major/Critical) and less severe instances[cite: 1].
 
 The pipeline dynamically tunes the classification threshold (e.g., shifting the probability threshold to 0.50 or 0.55) to maximize the MCC and F1 on the validation set[cite: 1].
-## Copyright and Permission
+## Copyright and Attribution
+
 © 2026 Asal Abbasi. All rights reserved.
 
-This project and its contents are protected by copyright. No part of this repository may be copied, reproduced, redistributed, or used in another project without prior written permission from the author.
+The code, implementation, analysis, and other original contributions in this repository are my own work, unless otherwise stated. The datasets used in this project remain the property of their respective owners and are subject to their original licenses and terms of use.
 
-If you wish to use, adapt, or redistribute any part of this project, please contact the author to request permission.
+Anyone wishing to use, reproduce, modify, or incorporate my original work into another project must provide clear and appropriate attribution to this repository and its author. Please cite this repository as the source of any code or project-specific contributions used.
 
-Unauthorized use, reproduction, or redistribution of this work is not permitted.
+**Unauthorized use or reproduction of my original work without proper attribution is not permitted.**
+
+This notice does not override the licenses or terms applicable to third-party datasets, libraries, or other materials included or referenced in this project.
